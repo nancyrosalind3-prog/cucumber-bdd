@@ -1,0 +1,23 @@
+{
+  "name": "cucumber-bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bdd": "cucumber-js features/contact*.feature --require-module ts-node/register --require 'step-definitions/**/*.ts' --require 'utils/cucumber-timeout.ts'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^13.3.0"
+  }
+}

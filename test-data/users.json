@@ -1,0 +1,17 @@
+{
+  "user1": {
+    "firstName": "Martin",
+    "lastName": "Joseph",
+    "email": "martin@example.com",
+    "phone": "8135551234",
+    "message": "This data came from a JSON file"
+  },
+
+  "user2": {
+    "firstName": "Nancy",
+    "lastName": "Rosalind",
+    "email": "nancy@example.com",
+    "phone": "8135555678",
+    "message": "Testing Playwright with Cucumber"
+  }
+}
